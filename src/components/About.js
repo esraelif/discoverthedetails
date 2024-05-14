@@ -1,16 +1,17 @@
 import React from 'react';
+import aboutImg from '../images/about.jpg'
+import Title from './Title';
 
 const About = () => {
     return (
         <section className="section" id="about">
-            <div className="section-title">
-                <h2>about <span>us</span></h2>
-            </div>
+            <Title title='about' subTitle='us' />
+
 
             <div className="section-center about-center">
                 <div className="about-img">
                     <img
-                        src="./images/about.jpeg"
+                        src={aboutImg}
                         className="about-photo"
                         alt="awesome beach"
                     />
@@ -18,14 +19,10 @@ const About = () => {
                 <article className="about-info">
                     <h3>explore the difference</h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-                        quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-                        unde dolor?
+                        Embark on a journey through the enchanting landscapes of Cappadocia with our exclusive tour. Marvel at the surreal rock formations, explore ancient underground cities, and float above the fairy chimneys in a hot air balloon ride at sunrise.
                     </p>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-                        quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-                        unde dolor?
+                        With our knowledgeable guides, delve into the region's rich history and culture while experiencing unparalleled natural beauty. Book your Cappadocia tour today for an unforgettable adventure in the heart of Turkey.
                     </p>
                     <a href="#" className="btn">read more</a>
                 </article>
