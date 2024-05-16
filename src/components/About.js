@@ -25,7 +25,7 @@ const About = () => {
                         With our knowledgeable guides, delve into the region's rich history and culture while experiencing unparalleled natural beauty. Book your Cappadocia tour today for an unforgettable adventure in the heart of Turkey.
                     </p>
 
-                    <a href='#' className='btn'>
+                    <a href='/about' className='btn'>
                         read more
                     </a>
                 </article>
