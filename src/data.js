@@ -34,7 +34,7 @@ export const socialLinks = [
         id: 2, href: 'https://www.twitter.com', icon: 'fab fa-x-twitter'
     },
     {
-        id: 3, href: 'https://www.squarespace.com', icon: 'fa-brands fa-instagram'
+        id: 3, href: 'https://www.instagram.com', icon: 'fa-brands fa-instagram'
     }
 
 ]
@@ -78,7 +78,7 @@ export const tours = [
 
     },
     {
-        id: 4, image: sumela, date: 'December 5th, 2024', title: 'Sumela highlights',
+        id: 4, image: sumela, date: 'December 5th, 2024', title: 'Sumela Monastery',
         info: 'Embark on an unforgettable journey through the enchanting Black Sea region, where lush green landscapes, charming villages, and warm hospitality await. Explore the historic cities of Trabzon, Rize, and Samsun, immerse yourself in the regions unique culture, and savor the flavors of traditional Black Sea cuisine.With breathtaking scenery and rich heritage, this tour promises an authentic and memorable adventure.',
         location: 'Trabzon',
         duration: '10',
