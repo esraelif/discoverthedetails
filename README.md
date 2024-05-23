@@ -19,3 +19,5 @@ App.js should be empty
 import and render all components in App.js (try auto imports)
 result is going to be the same, it's just easier to manage the code
 again, it's just my preference to split up code in such way.
+
+![test](https://github.com/esraelif/discoverthedetails/blob/main/src/images/Recording%20DiscoverTheDetails.gif)
